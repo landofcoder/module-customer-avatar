@@ -1,0 +1,35 @@
+{
+    "name": "landofcoder/module-customer-avatar",
+    "description":"Magento 2 Customer Avatar",
+    "keywords": [
+        "magento 2",
+        "Avatar",
+        "Profile picture",
+        "Customer Avatar",
+        "Customer Profile Picture",
+        "Magento 2 Customer Avatar",
+        "Magento 2 Customer Profile Picture"
+    ],
+    "type": "magento2-module",
+    "version": "2.1.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "homepage": "https://landofcoder.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\CustomerAvatar\\": ""
+        }
+    }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Lof
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Lof.com license that is
+ * available through the world-wide-web at this URL:
+ * https://landofcoder.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Lof
+ * @package     Lof_CustomerAvatar
+ * @copyright   Copyright (c) 2019 Lof (https://landofcoder.com/)
+ * @license     https://landofcoder.com/LICENSE.txt
+ */
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
+    <container name="root">
+        <block class="Magento\Review\Block\Product\View\ListView" name="product.info.product_additional_data" as="product_additional_data" template="Lof_CustomerAvatar::review/product/view/list.phtml" />
+        <block class="Magento\Theme\Block\Html\Pager" name="product_review_list.toolbar">
+            <arguments>
+                <argument name="show_per_page" xsi:type="boolean">false</argument>
+                <argument name="show_amounts" xsi:type="boolean">false</argument>
+            </arguments>
+        </block>
+    </container>
+</layout>
+

@@ -1,0 +1,16 @@
+.avatar {
+    opacity: 0;
+}
+.avatar-title {
+    display: block;
+    margin-bottom: 8px;
+}
+.avatar-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.field-name-avatar img {
+    cursor: pointer;
+}
