@@ -73,7 +73,7 @@ class InstallData implements InstallDataInterface
         $attributeGroupId = $attributeSet->getDefaultGroupId($attributeSetId);
 
         $customerSetup->addAttribute(Customer::ENTITY, 'profile_picture', [
-            'type' => 'varchar',
+            'type' => 'text',
             'label' => 'Profile Picture',
             'input' => 'image',
             'backend' => \Lof\CustomerAvatar\Model\Attribute\Backend\Avatar::class,

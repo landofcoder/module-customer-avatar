@@ -28,6 +28,7 @@
                     <item name="component" xsi:type="string">Magento_Ui/js/grid/columns/thumbnail</item>
                     <item name="sortable" xsi:type="boolean">false</item>
                     <item name="has_preview" xsi:type="string">1</item>
+                    <item name="dataType" xsi:type="string">text</item>
                     <item name="label" xsi:type="string" translate="true">Avatar</item>
                     <item name="sortOrder" xsi:type="number">1</item>
                 </item>
