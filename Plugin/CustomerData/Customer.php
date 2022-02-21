@@ -79,6 +79,7 @@ class Customer
         return [
             'fullname' => $this->customerViewHelper->getCustomerName($customer),
             'firstname' => $customer->getFirstname(),
+            'websiteId' => $customer->getWebsiteId(),
             'avatar' => $this->customerAvatar->getAvatarCurrentCustomer($file)
         ];
     }
